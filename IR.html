@@ -9,8 +9,37 @@
 <body>
     <a href="/">Back to homepage</a>
     <br>
-    <h1>Information Retrieval</h1>
-    <p>Information retrieval (IR) in computing and information science is the process of obtaining information system resources that are relevant to an information need from a collection of those resources. Searches can be based on full-text or other content-based indexing. Information retrieval is the science[1] of searching for information in a document, searching for documents themselves, and also searching for the metadata that describes data, and for databases of texts, images or sounds.</p>
+    <h1>Internet Search Techniques</h1>
+    <p>Information retrieval (IR) in computing and information science is the process of obtaining information system resources that are relevant to an information need from a collection of those resources. Searches can be based on full-text or other content-based indexing. Information retrieval is the science of searching for information in a document, searching for documents themselves, and also searching for the metadata that describes data, and for databases of texts, images or sounds.<a href="https://en.wikipedia.org/wiki/Information_retrieval">[Wikipedia]</a></p>
+    <h2>Boolean Retrieval Model</h2>
+    <ul>
+        <li>Each document is a bag of words</li>
+    </ul>
+    <p>Document is a vector, each term-dimension isindependent, therefore a document is a bag of words where information about the document structure is lost</p>
+    <h3>Cosine Similarity</h3>
+    <p>Cosine similarity is a measure of similarity between two non-zero vectors defined in an inner product space. Cosine similarity is the cosine of the angle between the vectors; that is, it is the dot product of the vectors divided by the product of their lengths. It follows that the cosine similarity does not depend on the magnitudes of the vectors, but only on their angle. The cosine similarity always belongs to the interval [ − 1 , 1 ] . {\displaystyle [-1,1].} {\displaystyle [-1,1].} For example, two proportional vectors have a cosine similarity of 1, two orthogonal vectors have a similarity of 0, and two opposite vectors have a similarity of -1. In some contexts, the component values of the vectors cannot be negative, in which case the cosine similarity is bounded in [ 0 , 1 ] {\displaystyle [0,1]} [0,1].</p>
+    <h3>Term Frequency: tf-score</h3>
+    <p>Frequency of the term in the document.</p>
+    <h3>Term Weight: tf.idf-score</h3>
+    <p>Term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in searches of information retrieval, text mining, and user modeling. The tf–idf value increases proportionally to the number of times a word appears in the document and is offset by the number of documents in the corpus that contain the word, which helps to adjust for the fact that some words appear more frequently in general. tf–idf has been one of the most popular term-weighting schemes. A survey conducted in 2015 showed that 83% of text-based recommender systems in digital libraries use tf–idf.</p>
+    <h2>Probabilistic Retrieval Model</h2>
+    <p>Designed for short – 2-3 words – queries</p>
+    <br>
+    <h4>Precision of Retrieval</h4>
+    <ul>
+        <li>Precision characterizes the fraction of the retrieved documents that are relevant</li>
+    </ul>
+    <h4>Recall of Retrieval</h4>
+    <ul>
+        <li>Recall characterizes the fraction of the relevant documents that have been retrieved</li>
+    </ul>
+    <h3>Document Index</h3>
+    <img src="IR1.png">
+    <h3>Page Rank</h3>
+    <p>PageRank (PR) is an algorithm used by Google Search Engine to rank web pages in their search engine results. It is named after both the term "web page" and co-founder Larry Page. PageRank is a way of measuring the importance of website pages.</p>
+    <img src="IR2.svg">
+    <br>
+    <i>Latvian University</i>
 </body>
 
 </html>
